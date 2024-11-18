@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+
+# Flask instance folder (contains sensitive data like configurations and databases)
+instance/
+
+# Test results and reports
+allure-results/
+pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Distribution and build artifacts
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# IDE/editor files
+.idea/         # PyCharm
+.vscode/       # Visual Studio Code
+
+# Environment files
+*.env
+
+# System files
+.DS_Store      # macOS metadata files
+Thumbs.db      # Windows thumbnail cache
