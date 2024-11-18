@@ -57,17 +57,6 @@ This project includes Swagger documentation, database integration, and a compreh
 
 ## Running the Application
 
-### Manually
-Start the Flask application manually:
-```bash
-python app.py
-```
-
-Access the API and Swagger documentation at:
-```
-http://127.0.0.1:5000/
-```
-
 ### Using Console Script
 If installed correctly, use the console command to start the app:
 ```bash
