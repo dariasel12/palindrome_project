@@ -71,7 +71,7 @@ This endpoint retrieves a previously generated string using its unique identifie
 
   @pytest.fixture(scope="session", autouse=True)
   def start_flask_app():
-      flask_process = subprocess.Popen(["python", "app.py"])
+      flask_process = subprocess.Popen(["run-palindrome"])
       time.sleep(3)  # Wait for the app to start
       yield
       flask_process.terminate()  # Stop the app after tests
